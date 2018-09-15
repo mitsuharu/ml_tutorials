@@ -54,41 +54,41 @@
 - プログラミングに関しては，RやStanが有名
 
 ## （図解）2状態の分類問題
-- 高校（中学？）数学で習った ![image/t01_m_fx0.png](image/t01_m_fx0.png) が識別器になる
+- 高校（中学？）数学で習った ![../image/t01_m_fx0.png](../image/t01_m_fx0.png) が識別器になる
 - 事後確率が最大になる方に分類される
 
-![ml01.png](image/ml01.png)
+![ml01.png](../image/ml01.png)
 
 ## （例題）訓練データありのモデル推定（最小二乗法）
 
-入力を![image/t01_m_x.png](image/t01_m_x.png)，出力を![image/t01_m_y.png](image/t01_m_y.png)として，パラメータ![image/t01_m_theta.png](image/t01_m_theta.png)を用いて，以下のようにモデルを定義する
+入力を![../image/t01_m_x.png](../image/t01_m_x.png)，出力を![../image/t01_m_y.png](../image/t01_m_y.png)として，パラメータ![../image/t01_m_theta.png](../image/t01_m_theta.png)を用いて，以下のようにモデルを定義する
 
-![image/t01_m_yfx.png](image/t01_m_yfx.png)
+![../image/t01_m_yfx.png](../image/t01_m_yfx.png)
 
 
-以下の訓練データが与えらえたときの問題を考える（パラメータ![image/t01_m_theta.png](image/t01_m_theta.png)を求める）．
+以下の訓練データが与えらえたときの問題を考える（パラメータ![../image/t01_m_theta.png](../image/t01_m_theta.png)を求める）．
 
-![image/t01_m_data.png](image/t01_m_data.png)
+![../image/t01_m_data.png](../image/t01_m_data.png)
 
-訓練データから理論値の誤差![image/t01_m_j.png](image/t01_m_j.png)は，以下のように定義できる．
+訓練データから理論値の誤差![../image/t01_m_j.png](../image/t01_m_j.png)は，以下のように定義できる．
 
-![image/t01_m_j2.png](image/t01_m_j2.png)
+![../image/t01_m_j2.png](../image/t01_m_j2.png)
 
-誤差![image/t01_m_j.png](image/t01_m_j.png)を最小にするパラメータ![image/t01_m_theta.png](image/t01_m_theta.png)を求めれば，モデルが求められる．
+誤差![../image/t01_m_j.png](../image/t01_m_j.png)を最小にするパラメータ![../image/t01_m_theta.png](../image/t01_m_theta.png)を求めれば，モデルが求められる．
 
-![image/t01_m_dj.png](image/t01_m_dj.png)
+![../image/t01_m_dj.png](../image/t01_m_dj.png)
 
 ここで，モデル関数を一次関数と仮定すると，
 
-![image/t01_m_fx.png](image/t01_m_fx.png)
+![../image/t01_m_fx.png](../image/t01_m_fx.png)
 
-パラメータ![image/t01_m_a.png](image/t01_m_a.png)および![image/t01_m_b.png](image/t01_m_b.png)は以下のように求められる
+パラメータ![../image/t01_m_a.png](../image/t01_m_a.png)および![../image/t01_m_b.png](../image/t01_m_b.png)は以下のように求められる
 
-![image/t01_m_ab.png](image/t01_m_ab.png)
+![../image/t01_m_ab.png](../image/t01_m_ab.png)
 
-この例題は分類問題ではないが，未知のデータを取得した時，求めた![image/t01_m_fx1.png](image/t01_m_fx1.png)から出力を予測できる（最小二乗法は実験演習などで習う基本的なデータ解析手法の１つ）．
+この例題は分類問題ではないが，未知のデータを取得した時，求めた![../image/t01_m_fx1.png](../image/t01_m_fx1.png)から出力を予測できる（最小二乗法は実験演習などで習う基本的なデータ解析手法の１つ）．
 
-![ml02.png](image/ml02.png)
+![ml02.png](../image/ml02.png)
   
 ## モデル推定の大まかな手順
 

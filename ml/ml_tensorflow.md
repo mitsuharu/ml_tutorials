@@ -36,7 +36,7 @@ z = Tensor("add:0", shape=(), dtype=int32)
 - セッション開始するまで計算されない
 - 反復計算，並列計算に特化するため
 
-  ![graph_run=.png](image/0C201D6039A7C99133E3BB606F8B4E2A.png)
+  ![graph_run=.png](../image/0C201D6039A7C99133E3BB606F8B4E2A.png)
 
 セッション開始を追加
 
@@ -80,7 +80,7 @@ sess.run(tf.global_variables_initializer())
 for step in range(100):
     print("step ", step, " z = ", sess.run(z))
 ```
-![graph_run=3.png](image/7B55861CB41D949E8D59EF72164F993B.png)
+![graph_run=3.png](../image/7B55861CB41D949E8D59EF72164F993B.png)
 
 ## データ構造
 
