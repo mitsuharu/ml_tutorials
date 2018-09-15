@@ -8,9 +8,10 @@
 
 1. [機械学習とは](ml/ml_beginning.md)
 1. [TensorFlowの基礎](ml/ml_tensorflow.md)
+1. [ニューラルネットワーク](ml/ml_nn.md)
+ 
 
 <!--
-1. [ニューラルネットワーク](tutorial_nn)
 1. [TensorFlowでNNを解く](tutorial_tfnn)
 1. [TensorFlowの保存と読込](tutorial_save)
 1. [TensorFlowとTensorBoard](tutorial_tfb)
