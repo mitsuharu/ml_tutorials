@@ -11,7 +11,7 @@
 1. [ニューラルネットワーク](ml/ml_nn.md)
 1. [TensorFlowでNNを解く](ml/ml_tf_nn.md) 
 1. [TensorFlowの保存と読込](ml/ml_tf_save.md)
-1. [TensorFlowとTensorBoard](ml/ml_tfb.md)
+1. [TensorFlowとTensorBoard](ml/ml_tf_tfb.md)
 1. [畳み込みニューラルネットワーク](ml/ml_cnn.md)
 1. [TensorFlow(Keras)とCore ML](ml/ml_coreml.md)
 1. [過学習](ml/ml_overfit.md)
