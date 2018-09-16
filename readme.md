@@ -22,30 +22,18 @@
 
 # 自然言語処理系
 
-準備中
+1. [形態素解析](nlp/nlp_mecab.md)
+2. [word2vec](nlp/nlp_w2v.md)
+2. [fastText](nlp/nlp_fasttext.md)
+2. [Wikipediaから学習データを作成する](nlp/nlp_wikipedia.md)
+3. [Python で fastText を使う](nlp/nlp_pyfasttext.md) 
 
-<!--
-1. [形態素解析](nl_mecab)
-2. [word2vec](nl_w2v)
-2. [fastText](nl_fasttext)
-2. [Wikipediaから学習データを作成する](nl_wikipedia)
-3. [Python で fastText を使う](nl_pyfasttext) 
--->
 
 # GCP設定
 
-準備中
-
-<!--
-1. [GCP環境設定](gcp_env)
--->
+1. [GCP環境設定](gcp/gcp_env.md)
 
 
 # その他
 
-準備中
-
-
-<!--
-1. [PythonとTensorFlowをインストールする](tutorial_py)
--->
+1. [PythonとTensorFlowをインストールする](others/others_python.md)
